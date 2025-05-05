@@ -1,41 +1,41 @@
 # 🌟 Browser Use Controller with LangChain + Gemini
 
-Welcome to the **Browser Use Controller** project! This powerful tool uses **LangChain**, **Gemini**, and **asyncio** to automate tasks within your browser. It simulates human-like actions, such as searching YouTube, playing videos, and gathering information—all powered by Google's **Gemini API**.
+Welcome to the **Browser Use Controller** project! This tool uses **LangChain**, **Gemini**, and **asyncio** to automate browser tasks. It can simulate human-like actions, like searching YouTube and gathering information, all powered by Google's **Gemini API**.
 
-![Browser Use Controller](https://img.shields.io/badge/Project-Browser%20Use%20Controller-brightgreen)  
-![Python Version](https://img.shields.io/badge/Python-3.8%2B-blue)  
-![License](https://img.shields.io/badge/License-MIT-blue)  
+![Project Badge](https://img.shields.io/badge/Project-Browser%20Use%20Controller-brightgreen)  
+![Python Badge](https://img.shields.io/badge/Python-3.8%2B-blue)  
+![License Badge](https://img.shields.io/badge/License-MIT-blue)  
 
 ---
 
 ## 📽️ Demo Videos
 
-### 🎥 **Setup Environment**  
+### 🎥 **Setup Video**  
 [![Watch on YouTube](https://img.youtube.com/vi/P08Ho_osy8g/0.jpg)](https://youtu.be/P08Ho_osy8g)
 
-### 🎥 **Running the Agent & Performance**  
+### 🎥 **Running the Agent**  
 [![Watch on YouTube](https://img.youtube.com/vi/N78LQqna5ZE/0.jpg)](https://youtu.be/N78LQqna5ZE)
 
 ---
 
 ## 🚀 Features
 
-- **Powerful integration** with **LangChain** and **Google Gemini Flash Model**.
-- Automates browser tasks with a custom-built **Agent** class.
-- Fully asynchronous with **asyncio** for enhanced performance.
-- Easy to customize for your own tasks and needs.
+- Powered by **LangChain** and **Google Gemini Flash Model**
+- Automates tasks in the browser using a custom **Agent**
+- Fast and efficient with **asyncio** (asynchronous execution)
+- Easy to customize for different tasks
 
 ---
 
 ## 📦 Installation & Setup
 
-### ✅ **Prerequisites**
+### ✅ Requirements
 
 - Python **3.8+**
 - Git
-- **Google Gemini API Key** (store it in a `.env` file as `GEMINI_API_KEY`)
+- **Google Gemini API Key** (you’ll need to add it to a `.env` file)
 
-### 🔧 **Environment Setup**
+### 🔧 How to Set Up
 
 1. Clone the repository:
     ```bash
@@ -51,14 +51,14 @@ Welcome to the **Browser Use Controller** project! This powerful tool uses **Lan
     source browser-agent/bin/activate     # On Mac/Linux
     ```
 
-3. Install dependencies:
+3. Install the necessary libraries:
     ```bash
     pip install -r requirements.txt
     ```
 
-4. **Configure the API Key:**
+4. **Add your API Key**:
 
-    Create a `.env` file in the root directory with the following content:
+    Create a `.env` file in the main folder and add your Gemini API key like this:
 
     ```env
     GEMINI_API_KEY=your_gemini_api_key_here
@@ -66,18 +66,18 @@ Welcome to the **Browser Use Controller** project! This powerful tool uses **Lan
 
 ---
 
-## 🧠 **How It Works**
+## 🧠 How It Works
 
-1. **Load the API Key**: Loads the **Gemini API** key from the environment variable.
-2. **Initialize the Model**: Sets up the **ChatGoogleGenerativeAI** model using the `gemini-2.0-flash` model.
-3. **Agent Execution**: Creates a browser **Agent** that performs specific tasks (e.g., searching YouTube and playing videos).
-4. **Async Operation**: Runs asynchronously using **asyncio** to maximize performance.
+1. The **Gemini API Key** is loaded from the environment.
+2. A **ChatGoogleGenerativeAI** model is created using **Google's Gemini Flash**.
+3. The **Agent** executes tasks, like searching YouTube and playing videos.
+4. It runs asynchronously using **asyncio** for smooth performance.
 
 ---
 
-## 🏃‍♂️ **Usage**
+## 🏃‍♂️ How to Run It
 
-After setting up, run the following command to start the agent:
+Once set up, run the following command:
 
 ```bash
 uv run main.py
@@ -87,13 +87,13 @@ The agent will:
 - Open a browser window
 - Search YouTube for *CampusX*
 - Play the LangChain video
-- Return details about the channel and person
+- Show insights about the channel and person
 
 ---
 
-## 🔧 **Customize Task**
+## 🛠️ Customize the Task
 
-To modify the task the agent performs, edit the `task` argument in `main.py`:
+To change what the agent does, edit the `task` in the `main.py` file:
 
 ```python
 task="your new task here"
@@ -101,27 +101,27 @@ task="your new task here"
 
 For example:
 ```python
-task="go to Google and find the latest news about AI"
+task="search for the latest AI news on Google"
 ```
 
 ---
 
-## 📄 **License**
+## 📄 License
 
-This project is licensed under the **MIT License**. You are free to use, modify, and distribute it.
+This project is licensed under the **MIT License**, which means you can use, modify, and share it freely.
 
 ---
 
-## ✨ **Author**
+## ✨ Author
 
 **Saram Ali**  
-[LinkedIn]([https://www.linkedin.com/in/saram-ali](https://www.linkedin.com/in/saram-ali-099b9b2a4/)) | [GitHub](https://github.com/SARAMALI15792)
+[LinkedIn](https://www.linkedin.com/in/saram-ali) | [GitHub](https://github.com/SARAMALI15792)
 
 ---
 
 ### 📚 Additional Resources
 
-- [LangChain Documentation](https://langchain.com/docs)
-- [Gemini API Documentation](https://developers.google.com/ai/gemini)
+- [LangChain Docs](https://langchain.com/docs)
+- [Gemini API Docs](https://developers.google.com/ai/gemini)
 
 ---
