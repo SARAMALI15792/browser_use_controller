@@ -70,7 +70,7 @@ Welcome to the **Browser Use Controller** project! This tool uses **LangChain**,
 
 1. The **Gemini API Key** is loaded from the environment.
 2. A **ChatGoogleGenerativeAI** model is created using **Google's Gemini Flash**.
-3. The **Agent** executes tasks, like searching YouTube and playing videos.
+3. The **Agent** executes tasks based on the prompt you provide. For example, you can tell the agent to search for a specific YouTube channel and gather information about it.
 4. It runs asynchronously using **asyncio** for smooth performance.
 
 ---
@@ -85,7 +85,7 @@ uv run main.py
 
 The agent will:
 - Open a browser window
-- Search YouTube for *CampusX*
+- Search YouTube for *CampusX* (or any prompt you set)
 - Play the LangChain video
 - Show insights about the channel and person
 
@@ -104,6 +104,11 @@ For example:
 task="search for the latest AI news on Google"
 ```
 
+In your case, you can set the task to search for a specific **YouTube channel**, like this:
+```python
+task="search for the CampusX YouTube channel, play a video, and return the channel information"
+```
+
 ---
 
 ## 📄 License
@@ -115,7 +120,7 @@ This project is licensed under the **MIT License**, which means you can use, mod
 ## ✨ Author
 
 **Saram Ali**  
-[LinkedIn](https://www.linkedin.com/in/saram-ali) | [GitHub](https://github.com/SARAMALI15792)
+[LinkedIn]([https://www.linkedin.com/in/saram-ali](https://www.linkedin.com/in/saram-ali-099b9b2a4/)) | [GitHub](https://github.com/SARAMALI15792)
 
 ---
 
