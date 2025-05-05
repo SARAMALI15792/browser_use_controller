@@ -4,10 +4,13 @@ This project is a browser automation agent using `LangChain`, `Gemini`, and `asy
 
 ---
 
-## 📽️ Demo Video
+## 📽️ Demo Videos
 
-### 📌 Video: Setting Up the Environment and Code  
+### 📌 Video 1: Setup Environment and Code  
 [![Watch on YouTube](https://img.youtube.com/vi/P08Ho_osy8g/0.jpg)](https://youtu.be/P08Ho_osy8g?si=zuKSfvW8jnxWXeM1)
+
+### 📌 Video 2: Running the Agent & Performance  
+[![Watch on YouTube](https://img.youtube.com/vi/N78LQqna5ZE/0.jpg)](https://youtu.be/N78LQqna5ZE)
 
 ---
 
