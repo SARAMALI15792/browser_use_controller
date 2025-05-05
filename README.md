@@ -115,7 +115,7 @@ This project is licensed under the **MIT License**. You are free to use, modify,
 ## ✨ **Author**
 
 **Saram Ali**  
-[LinkedIn](https://www.linkedin.com/in/saram-ali) | [GitHub](https://github.com/SARAMALI15792)
+[LinkedIn]([https://www.linkedin.com/in/saram-ali](https://www.linkedin.com/in/saram-ali-099b9b2a4/)) | [GitHub](https://github.com/SARAMALI15792)
 
 ---
 
